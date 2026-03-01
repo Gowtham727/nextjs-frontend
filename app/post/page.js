@@ -36,7 +36,7 @@ console.log(error);
 return(
     <div>
         <form onSubmit={handlesubmit}>
-        <h1>add products</h1>
+        <h1>SPRING PAGE </h1>
          <input  type="number" placeholder="id" name="id" value={id} 
         onChange={(e) => setid(e.target.value) }
         ></input>

@@ -29,9 +29,11 @@ export default function Home(){
    catch(error){
 console.log("failed to post");
    }
+   
   }
   return(
 <div>
+  <h1>Login page</h1>
   <form onSubmit={handleloginsubmit}>
     <label>username : </label>
     <input type="text" name="username" value={username}

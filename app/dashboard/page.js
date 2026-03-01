@@ -10,6 +10,7 @@ router.push("/post");
   }
   return(
 <div>
+  <h1>DASHBOARD PAGE</h1>
   <button onClick={handleget}>get data</button>
   <br></br>
    <button onClick={handlepost}>post data</button>
