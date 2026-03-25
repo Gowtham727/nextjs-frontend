@@ -1,0 +1,197 @@
+/* .container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0070f3, #00c6ff);
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+  padding: 12px 24px;
+  background-color: white;
+  color: #0070f3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.buttons:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.buttons:hover:not(:disabled) {
+  background-color: #005bb5;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.buttons:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.floatingMenu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  color: #0070f3;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatButton:hover {
+  transform: scale(1.1);
+}
+
+.chatSection {
+  margin-top: 20px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-out;
+  color: #333;
+}
+
+.chatTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.responseCard {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.botImage {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #f5f5f5;
+}
+
+.botMessage {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.productName {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.productPrice {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0070f3;
+  margin-bottom: 12px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+} */
+ .dashboard { padding:20px; }
+
+.header {
+  display:flex;
+  justify-content:space-between;
+}
+
+.stats {
+  display:flex;
+  gap:10px;
+  margin:20px 0;
+}
+
+.card {
+  background:white;
+  padding:15px;
+  border-radius:8px;
+}
+
+.search input {
+  padding:8px;
+}
+
+.books {
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap:15px;
+}
+
+.book {
+  background:white;
+  padding:15px;
+  border-radius:8px;
+}
+
+.book button {
+  margin-top:10px;
+  width:100%;
+}
